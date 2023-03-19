@@ -33,4 +33,31 @@ __RS School JavaScript/Front-end 2023Q1 Courses__
 
 Mar 2023 - Present
 
+## Technical Skills 
 
+---
+
+| **Knowledge area** | **Level** |
+|--------------------|-----------|
+| HTML5, CSS3        | Basic     |
+| JavaScript         | Basic     |
+| Git, Github        | Basic     |
+| Figma              | Basic     |
+| Adobe Photoshop    | Basic     |
+
+## Code Example
+
+---
+
+__Extract the domain name from a URL KATA from CODEWARS:__ Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. 
+
+![image](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=Codewars&logoColor=white)
+
+```js 
+function domainName(url){
+  if (!/^https?:\/\//.test(url)) {
+      url = "http://" + url;
+    }
+  return new URL(url).hostname.match(/[^w{3}\.][a-z0-9-]+[^\.]/)[0];
+}
+```
