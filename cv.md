@@ -19,6 +19,14 @@ practice and take up new technical challenges. The positive traits include patie
 and resilience alongside with creativity and system thinking. Teamplayer and also
 independently responsible.
 
+## Languages
+
+---
+
+__English (C1)__
+
+_Cambridge English: Advanced (CAE)_ Exam, 2018
+
 ## Education
 
 ---
@@ -61,11 +69,3 @@ function domainName(url){
   return new URL(url).hostname.match(/[^w{3}\.][a-z0-9-]+[^\.]/)[0];
 }
 ```
-
-## Languages
-
----
-
-__English (C1)__
-
-_Cambridge English: Advanced (CAE)_ Exam, 2018
